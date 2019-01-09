@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'fluentd', '<=1.2.4'
+gem 'fluentd', '<=1.2.6'
 gem 'activesupport', '~>5.2.1'
 gem 'fluent-plugin-concat', '~>2.3.0'
 gem 'fluent-plugin-kubernetes_metadata_filter', '~>2.1.2'
