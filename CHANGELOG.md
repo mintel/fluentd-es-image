@@ -1,3 +1,8 @@
+## v2.5.0-0
+* Upgrade base image to buster-slim
+* Update fluentd to 1.9.x
+* Update elasticsearch plugin to 4.0.x
+
 ## v2.4.0-0
 * First Changelog
 

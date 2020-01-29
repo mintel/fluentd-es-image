@@ -19,7 +19,7 @@
 # Note that fluentd is run with root permssion to allow access to
 # log files with root only access under /var/log/containers/*
 
-FROM debian:stretch-slim
+FROM debian:buster-slim
 
 ARG DEBIAN_FRONTEND=noninteractive
 
@@ -34,7 +34,7 @@ COPY Gemfile /Gemfile
 RUN BUILD_DEPS="make gcc g++ libc6-dev ruby-dev libffi-dev" \
     && clean-install $BUILD_DEPS \
                      ca-certificates \
-                     libjemalloc1 \
+                     libjemalloc2 \
                      ruby \
     && echo 'gem: --no-document' >> /etc/gemrc \
     && gem install --file Gemfile \

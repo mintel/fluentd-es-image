@@ -16,7 +16,7 @@
 
 PREFIX = mintel
 IMAGE = fluentd-es-image
-TAG = v2.4.0-0
+TAG = v2.5.0-0
 
 build:
 	docker build --pull -t $(PREFIX)/$(IMAGE):$(TAG) .

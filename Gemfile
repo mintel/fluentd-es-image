@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 
-gem 'fluentd', '~> 1.8', '>= 1.8.1'
+gem 'fluentd', '~> 1.9', '>= 1.9.0'
 gem 'fluent-plugin-concat', '~> 2.4'
 gem 'fluent-plugin-kubernetes_metadata_filter', '~> 2.4'
-gem 'fluent-plugin-elasticsearch', '~> 3.8', '>= 3.8.0'
+gem 'fluent-plugin-elasticsearch', '~> 4.0', '>= 4.0.0'
 gem 'elasticsearch-xpack', '~> 7.4', '>= 7.4.0'
 gem 'fluent-plugin-systemd', '~> 1.0', '>= 1.0.2'
 gem 'fluent-plugin-detect-exceptions', '~> 0.0.12'
